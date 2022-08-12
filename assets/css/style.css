@@ -67,6 +67,10 @@ Nguyên tắc:
     text-align: center !important;
 }
 
+.mt-16 {
+    margin-top: 16px !important;
+}
+
 /* Main */
 #main {
  
@@ -79,25 +83,45 @@ Nguyên tắc:
     right: 0;
     height: 46px;
     background-color: #000;
-    z-index: 1; 
+    z-index: 1;
     /* muốn thằng nào đè lên thì chỉnh thành 1 */
 }
  
+#header .menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
 }
 
-#header .search-icon {
+#header .search-icon,
+#header .menu-btn-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
 }
 
 #header .search-btn:hover {
-    color: #fff;
     background-color: #f44336;
     cursor:pointer;
+}
+
+#header .menu-btn:hover {
+    background-color: #ccc;
+
+}
+
+#header .menu-btn:hover .menu-btn-icon {
+    color: #000;
+}
+
+#header .menu-btn {
+    display: none;
 }
 
 #nav {
@@ -198,11 +222,12 @@ Nguyên tắc:
 }
 
 .about-section {
-    padding: 32px;
+
 }
 
 #content .content-section {
-    width: 800px;   
+    width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
@@ -229,10 +254,11 @@ Nguyên tắc:
     font-size: 15px;
     line-height: 1.4;
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 #content .about-team {
-    margin-top: 47px;
+    padding: 32px 0;
 }
 
 
@@ -288,7 +314,7 @@ Nguyên tắc:
 }
 
 .place-tour {
-    padding: 32px 0;
+    margin-top: 16px;
 }
 
 
@@ -309,7 +335,7 @@ Nguyên tắc:
 .place-tour .name-place {
     font-size: 15px;
     font-weight: 600;
-}   
+}  
 
 .place-tour .date-place {
     font-size: 15px;
@@ -506,6 +532,10 @@ Nguyên tắc:
 #footer {
     padding: 64px 16px;
     text-align: center;
+}
+
+.easy-touch {
+    margin: 0 16px;
 }
 
 .copyright {

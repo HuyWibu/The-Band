@@ -3,8 +3,10 @@
     <head>
         <title>The Band</title>
         <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Circle-icons-music.svg/768px-Circle-icons-music.svg.png" type="image/x-icon" />
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
         <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
     </head>
     <body>
@@ -33,6 +35,11 @@
                 <div class="search-btn">
                     <i class="search-icon ti-search"></i>
                 </div>
+
+                <div id="mobile-menu" class="menu-btn">
+                    <i class="menu-btn-icon ti-menu"></i>
+                </div>
+
                 <!-- End: Search-button -->
             </div>
 
@@ -54,15 +61,15 @@
                         <div class="content-slogan">We love music</div>
                         <p class="content-about">We are a fictional band. We are made up of three members who were friends during college. We are both students at PTIT and both majored in information technology. We always try and work hard to achieve what we want. I would like to introduce myself as the author of this website. My name is Huy and I am writing a fictional website. Here are two of my friends. This site is just for me to practice what I've learned and it's very basic. Currently the site is lacking a lot but I will try to add it as soon as possible. Thank!</p>
                         <div class="row about-team">
-                            <div class="col col-three text-center" >
+                            <div class="member-set-mobile col col-three text-center" >
                                 <p class="member-name"><a href="https://www.facebook.com/profile.php?id=100016572454971 " target="_blank" >Huy</a></p>
                                 <img src="./assets/img/Team/me.jpg" alt="Ảnh của Huy" class="member-avatar">
                             </div>
-                            <div class="col col-three text-center">
+                            <div class="member-set-mobile col col-three text-center">
                                 <p class="member-name"><a href="https://www.facebook.com/profile.php?id=100008316196618" target="_blank" >Na</a></p>
                                 <img src="./assets/img/Team/na.png" alt="Ảnh của Na" class="member-avatar">
                             </div>
-                            <div class="col col-three text-center">
+                            <div class="member-set-mobile col col-three text-center">
                                 <p class="member-name"><a href="https://www.facebook.com/hungdn.3009" target="_blank" >Hùng</a></p>
                                 <img src="./assets/img/Team/hung.jpg" alt="Ảnh của Hùng" class="member-avatar">
                             </div>
@@ -83,33 +90,33 @@
                             <li>November <span class="quantity">3</span></li>
                         </ul>   
                         <div class="row place-tour">
-                            <div class="col col-three">
+                            <div class="col col-three s-col-full mt-16">
                                 <img src="./assets/img/Places/newyork.jpg" alt="Newyork" class="places-image">
                                 <div class="place-info">
                                     <p class="name-place">New York</p>
                                     <p class="date-place">Fri 27 Nov 2016</p>
                                     <p class="place-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <button class="buy-ticket js-buy-ticket">Buy Tickets</button>
+                                    <button class="buy-ticket s-full-width js-buy-ticket">Buy Tickets</button>
                                 </div>
                             </div>
 
-                            <div class="col col-three">
+                            <div class="col col-three s-col-full mt-16">
                                 <img src="./assets/img/Places/paris.jpg" alt="paris" class= "places-image" >
                                 <div class="place-info">
                                     <p class="name-place">Paris</p>
                                     <p class="date-place">Sat 28 Nov 2016</p>
                                     <p class="place-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <button class="buy-ticket js-buy-ticket">Buy Tickets</button>
+                                    <button class="buy-ticket s-full-width js-buy-ticket">Buy Tickets</button>
                                 </div>
                             </div>
 
-                            <div class="col col-three">
+                            <div class="col col-three s-col-full mt-16">
                                 <img src="./assets/img/Places/sanfran.jpg" alt="sanfran" class= "places-image">
                                 <div class="place-info">
                                     <p class="name-place">San Francisco</p>
                                     <p class="date-place">Sun 29 Nov 2016</p>
                                     <p class="place-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                    <button class="buy-ticket js-buy-ticket">Buy Tickets</button>
+                                    <button class="buy-ticket s-full-width js-buy-ticket">Buy Tickets</button>
                                 </div>
                             </div>
                             <div class="clear"></div>
@@ -123,28 +130,28 @@
                     <h2 class="content-text-section">CONTACT</h2>
                     <div class="content-slogan">Fan? Drop a note!</div>
                     <div class="row contact-content">
-                        <div class="col col-half contact-info">
+                        <div class="col col-half s-col-full contact-info">
                             <div>
                                 <i class="ti-location-pin"></i>
-                                Chicago, US
+                                Ha Noi, Vietnam
                             </div>
                             <div>
                                 <i class="ti-mobile"></i>
-                                Phone: +00 151515
+                                Phone: <a href="tel:+84 979810371">+84 979810371</a>
                             </div>
                             <div>
                                 <i class="ti-email"></i>
-                                Email: mail@mail.com
+                                Email: <a href="mailto: nguyenqhuy02@gmail.com">nguyenqhuy02@gmail.com</a>
                             </div>
                         </div>
-                        <div class="col col-half contact-form">
+                        <div class="col col-half s-col-full contact-form">
                             <form action="">
                                 <div class="row">
-                                    <div class="col col-half">
+                                    <div class="col s-col-full col-half">
                                         <input type="text" placeholder="Name" required class="form-control">
                                     </div>
-                                    <div class="col col-half">
-                                        <input type="email" placeholder="Email" required class="form-control">
+                                    <div class="col s-col-full col-half">
+                                        <input type="email" placeholder="Email" required class="form-control s-form-control">
                                     </div>
                                 </div>
                                 <div class="row contact-message">
@@ -152,7 +159,7 @@
                                         <input type="message" placeholder="Message" required class="form-control">
                                     </div>
                                 </div>
-                                    <input class="form-submit-btn" type="submit" value="SEND">                          
+                                    <input class="form-submit-btn s-full-width" type="submit" value="SEND">                          
                             </form>
                         </div>
                     </div>
@@ -167,12 +174,12 @@
 
             <div id="footer">
                 <div class="social">
-                    <a href=""><i class="ti-facebook"></i></a>
-                    <a href=""><i class="ti-instagram"></i></a>
-                    <a href=""><i class="ti-youtube"></i></a>
-                    <a href=""><i class="ti-pinterest-alt"></i></a>
-                    <a href=""><i class="ti-twitter-alt"></i></a>
-                    <a href=""><i class="ti-linkedin"></i></a> 
+                    <a href=""><i class="ti-facebook easy-touch"></i></a>
+                    <a href=""><i class="ti-instagram easy-touch"></i></a>
+                    <a href=""><i class="ti-youtube easy-touch"></i></a>
+                    <a href=""><i class="ti-pinterest-alt easy-touch"></i></a>
+                    <a href=""><i class="ti-twitter-alt easy-touch"></i></a>
+                    <a href=""><i class="ti-linkedin easy-touch"></i></a> 
                 </div>
                 <p class="copyright">Powered by <a href="" class="copyright">w3.css</a></p>
             </div>
@@ -239,6 +246,45 @@
             modalContainer.addEventListener('click', function(event) {
                 event.stopPropagation()
             })
+        </script>
+
+        <script>
+            var header = document.getElementById ('header');
+            var mobileMenu = document.getElementById ('mobile-menu');
+            var headerHeight = header.clientHeight;
+            // mobile-menu
+            // console.log(mobileMenu);
+            mobileMenu.onclick = function() {
+                var isClose = header.clientHeight === headerHeight;
+                // javascript === có nghĩa là so sánh
+
+                // Đóng mở mobile menu
+                if(isClose) {
+                    header.style.height = 'auto';
+                }
+                else {
+                    header.style.height = null;
+                    // header.style.height = '46px';
+                }
+            }
+            // Tự động đóng mở khi chọn 
+            var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+            for (var i = 0; i < menuItems.length; i++) {
+                var menuItem = menuItems[i];
+
+                menuItem.onclick = function(event) {
+                    var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                    // console.log(this);
+                    if(isParentMenu) {
+                        event.preventDefault();
+                    }
+                    else {
+                        header.style.height = null;
+                    }
+                }
+            }
+
         </script>
     </body>
 </html>
